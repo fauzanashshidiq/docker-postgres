@@ -18,6 +18,9 @@ UPDATE SALAM.dosens
 SET prodi = 'Teknik Informatika'
 WHERE nip = '123';
 
+DELETE FROM SALAM.dosens
+WHERE = '123';
+
 DROP TABLE SALAM.dosens;
 
 reset role;
